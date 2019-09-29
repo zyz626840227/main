@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## The first function is a constructor the second one is the actual solve function 
 
-## Write a short comment describing this function
+## A constructor for a sepcial type of matrix that can remember its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
@@ -16,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Find the inverse of a CacheMartix 
+## If the invese is already calculated, the function will return immediately
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
